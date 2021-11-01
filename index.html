@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple One Page Scroll</title>
+  <link rel="stylesheet" href="stylesheet.css" </head>
+  <script type="text/javascript" src="script.js"></script>
+
+<body>
+  <h1>Paleontology</h1>
+  <div class="wrapper">
+    <nav>
+      <a href="#section_01">
+        <p id="nav_section_01">My Favorite Dinos</p>
+      </a>
+      <a href="#section_02">
+        <p id="nav_section_02">Pterodactyl</p>
+      </a>
+      <a href="#section_03">
+        <p id="nav_section_03">Triceratops</p>
+      </a>
+      <a href="#section_04">
+        <p id="nav_section_04">Stegosaurus</p>
+      </a>
+      <a href="#section_05">
+        <p id="nav_section_05">Velociraptor</p>
+      </a>
+    </nav>
+
+    <section id="section_01">
+      <h2>My Favorite Dinos</h2>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">View Sections</button>
+        <div class="dropdown-content">
+          <a href="#section_02">Pterdactyl</a>
+          <a href="#section_03">Triceratops</a>
+          <a href="#section_04">Stegosaurus</a>
+          <a href="#section_05">Velociraptor</a>
+        </div>
+      </div>
+    </section>
+    <section id="section_02">
+      <h2>Pterodactyl</h2>
+    </section>
+    <section id="section_03">
+      <h2>Triceratops</h2>
+      <br>
+      <!-- Use a button to open the snackbar -->
+      <button onclick="myFunction()">What kind of dinosaur is triceratops?</button>
+      <!-- The actual snackbar -->
+      <div id="snackbar">Herbivore!</div>
+
+    </section>
+    <section id="section_04">
+      <h2>Stegosaurus<h2>
+    </section>
+    <section id="section_05">
+      <h2>Velociraptor</h2>
+    </section>
+
+    <footer class="footer"><a href="#top">
+        <p>SCROLL BACK TO TOP</p>
+      </a></footer>
+  </div><!-- END OF CONTAINER -->
+</body>
+
+</html>
